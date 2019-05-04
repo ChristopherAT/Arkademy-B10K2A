@@ -6,6 +6,24 @@ Gunakan online IDE berikut untuk mencoba program soal_1.py sampai soal_5.py
 [Repl.it](https://repl.it/languages/python3).
 
 ## Soal nomor 1
+Buatlah sebuah method/function untuk me-return biodata Anda, dengan ketentuan
+
+- name(string)
+- address (String)
+- hobbies (Array)
+- is_married (Boolean)
+- school (Obj) with key highSchool, and university
+- skills (Array of Obj)
+
+Return value harus berformat JSON!
+
+Pada readme sebutkan kegunaan JSON pada REST API
+
+berikut adalah contoh dari JSON format >>>
+
+- http://dummy.restapiexample.com/api/v1/employees
+- https://api.bukalapak.com/v2/products/f3vi.json
+- http://mysafeinfo.com/api/data?list=presidents&format=json&case=upper
 
 ## Soal nomor 2:
 Pada sebuah form, terdapat 3 buah field yaitu: username, dan password.
@@ -56,8 +74,8 @@ Makan akan dihasilkan:
 * = = = *
 ```
 ### Jawaban nomor 3:
-Program dibuat dengan bahasa Python 3.
-contoh output dengan input lain:
+Program dibuat dengan bahasa Python 3. Untuk menampilkan string `* * * * *`, cukup digunakan 
+`'*'*5`. Contoh output dengan input selain pada soal:
 
 ```
 cetak_gambar(3)
@@ -83,8 +101,9 @@ dan juga mengurutkan abjad di dalamnya dari a ke z. Dilarang menggunakan built i
 function `array_multisort`
 
 ### Jawaban nomor 4:
-Digunakan algoritma insertion sort yang dimodifikasi. Pertama, dilakukan sorting 
-berdasarkan panjang array di dalam array. Bersamaan dengan proses sorting tersebut, 
+Digunakan algoritma insertion sort yang dimodifikasi. 
+Algoritma insertion sort dapat dilihat di (https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm)
+Pertama, dilakukan sorting berdasarkan panjang array di dalam array. Bersamaan dengan proses sorting tersebut, 
 jika ditemukan dua array dengan panjang yang sama, bandingkan tiap elemen array tersebut.
 Membandingkan dua karakter mudah dilakukan dengan membandingkan nilai ASCII nya. Digunakan
 fungsi `ord()` pada Python, misalnya huruf 'a' bernilai 97, 'b' bernilai 98, dst.
@@ -138,6 +157,5 @@ bf0817d71e631731e91194c278987f22
 9960a1999f80cdeaec50ffdd7bfbcd88
 7b6ea9a8c99624ad4e1d16bc05d1c81e
 ```
-
 
 
