@@ -21,13 +21,18 @@ Peserta hanya diminta membuat function validasi, tidak perlu membuat form HTML.
 examples:
 
 `- is_username_valid(‘zeronull’)`
-Return true
-`- is_username_valid(‘useroke’)`
-Return false
-`- is_password_valid(‘qazW_123’)`
+
 Return true
 
-# Jawaban nomor 2:
+`- is_username_valid(‘useroke’)`
+
+Return false
+
+`- is_password_valid(‘qazW_123’)`
+
+Return true
+
+### Jawaban nomor 2:
 Pertama, asumsikan karakter spesial yang diboleh digunakan sebagai password 
 adalah semua simbol yang dapat diprint (ada di keyboard) kecuali spasi.
 Spasi tidak digunakan dalam password karena jika ada spasi berurutan, sulit 
@@ -50,7 +55,7 @@ Makan akan dihasilkan:
 * = = = *
 * = = = *
 ```
-# Jawaban nomor 3:
+### Jawaban nomor 3:
 Program dibuat dengan bahasa Python 3.
 contoh output dengan input lain:
 
@@ -77,7 +82,7 @@ berisi abjad, yang mempunyai tugas untuk mengurutkan array terpendek ke terpanja
 dan juga mengurutkan abjad di dalamnya dari a ke z. Dilarang menggunakan built in
 function `array_multisort`
 
-# Jawaban nomor 4:
+### Jawaban nomor 4:
 Digunakan algoritma insertion sort yang dimodifikasi. Pertama, dilakukan sorting 
 berdasarkan panjang array di dalam array. Bersamaan dengan proses sorting tersebut, 
 jika ditemukan dua array dengan panjang yang sama, bandingkan tiap elemen array tersebut.
@@ -105,7 +110,7 @@ da2c312dfe804ef5bd318133a342251a
 6e576057da174c4189f7ea8341946aed
 ```
 
-# Jawaban nomor 5
+### Jawaban nomor 5
 Untuk menghasilkan karakter random dengan panjang tertentu, digunakan fungsi hash.
 Informasi lebih lanjut dapat dipelajari di (https://en.wikipedia.org/wiki/Hash_function).
 Fungsi hash yang digunakan adalah SHA-256, implementasinya di Python diambil dari modul
