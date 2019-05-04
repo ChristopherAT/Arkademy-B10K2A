@@ -17,11 +17,11 @@ karakter spesial. Dengan panjang minimal 8 karakter.
 Clue:
 Peserta hanya diminta membuat function validasi, tidak perlu membuat form HTML.
 examples:
-- is_username_valid(‘zeronull’)
+`- is_username_valid(‘zeronull’)`
 Return true
-- is_username_valid(‘useroke’)
+`- is_username_valid(‘useroke’)`
 Return false
-- is_password_valid(‘qazW_123’)
+`- is_password_valid(‘qazW_123’)`
 Return true
 
 # Jawaban nomor 2:
@@ -30,7 +30,7 @@ adalah semua simbol yang dapat diprint (ada di keyboard) kecuali spasi.
 Spasi tidak digunakan dalam password karena jika ada spasi berurutan, sulit 
 untuk menghitung jumlah karakternya.
 
-Untuk validasi username, digunakan fungsi validasiUser dengan satu input berupa string.
+Untuk validasi username, digunakan fungsi `validasiUser` dengan satu input berupa string.
 Output yang dihasilkan adalah True atau False.
 
 -----------------------------------------------------------------------------------
@@ -39,45 +39,45 @@ Buatlah function untuk mencetak gambar seperti dibawah ini, yang mempunyai
 sebuah parameter sebagai panjang lebar/tinggi gambar. Parameter harus merupakan
 bilangan ganjil:
 Misalnya jika dijalankan:
-cetak_gambar(5);
+`cetak_gambar(5);`
 Makan akan dihasilkan:
-* = = = *
-* = = = *
-* * * * *
-* = = = *
-* = = = *
+`* = = = *
+`* = = = *
+`* * * * *
+`* = = = *
+`* = = = *`
 
 # Jawaban nomor 3:
 Program dibuat dengan bahasa Python 3.
 contoh output dengan input lain:
 
-cetak_gambar(3)
-* = *
-* * *
-* = *
+`cetak_gambar(3)
+`* = *
+`* * *
+`* = *
 
-cetak_gambar(7)
-* = = = = = *
-* = = = = = *
-* = = = = = *
-* * * * * * *
-* = = = = = *
-* = = = = = *
-* = = = = = *
+`cetak_gambar(7)
+`* = = = = = *
+`* = = = = = *
+`* = = = = = *
+`* * * * * * *
+`* = = = = = *
+`* = = = = = *
+`* = = = = = *
 
 -----------------------------------------------------------------------------------
 ## Soal nomor 4:
 Buatlah sebuah function memiliki sebuah parameter berupa array yang berisi array yang
 berisi abjad, yang mempunyai tugas untuk mengurutkan array terpendek ke terpanjang,
 dan juga mengurutkan abjad di dalamnya dari a ke z. Dilarang menggunakan built in
-function array_multisort
+function `array_multisort`
 
 # Jawaban nomor 4:
 Digunakan algoritma insertion sort yang dimodifikasi. Pertama, dilakukan sorting 
 berdasarkan panjang array di dalam array. Bersamaan dengan proses sorting tersebut, 
 jika ditemukan dua array dengan panjang yang sama, bandingkan tiap elemen array tersebut.
 Membandingkan dua karakter mudah dilakukan dengan membandingkan nilai ASCII nya. Digunakan
-fungsi ord() pada Python, misalnya huruf 'a' bernilai 97, 'b' bernilai 98, dst.
+fungsi `ord()` pada Python, misalnya huruf 'a' bernilai 97, 'b' bernilai 98, dst.
 Diperoleh array dalam array yang terurut dari kecil ke besar.
 Contoh:
 Input 
